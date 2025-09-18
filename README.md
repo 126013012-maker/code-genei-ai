@@ -8,21 +8,21 @@ AI chatbot powered by **Ollama**, **Streamlit** for interactive text/code analys
 
 ## 🏆 Milestones & Features
 
-### 1️⃣ Basic Ollama Chatbot (`app.py`)
+### 1️⃣ Basic Ollama Chatbot (` chatbot_ollama.py `)
 
 * Simple chatbot built in VS Code.
 * Connected to **Ollama 3.2.1b** for conversational AI.
 * Powered by **Streamlit** for an interactive web interface.
 * Supports basic chatting functionality.
 
-### 2️⃣ Enhanced UI Chatbot (`app1.py`)
+### 2️⃣ Enhanced UI Chatbot (`chatbot_ollama1.py`)
 
 * Improved user interface for a better chat experience.
 * Allows selection of **different Ollama models**.
 * Designed with chat history, input/output styling, and responsive UI.
 * Multiple models can be used for comparison and experimentation.
 
-### 3️⃣ OCR-Integrated Chatbot (`ocr.py`)
+### 3️⃣ OCR-Integrated Chatbot (`ocr1.py`)
 
 * Integrates **OCR text extraction** using **Pytesseract**.
 * Automatically detects the programming language of code snippets (Python, C++, Java, JS).
@@ -102,18 +102,23 @@ streamlit run ocr.py
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Files & Demo
 
+### 📝 Python Scripts
+| File                 | Description                                        |
+| -------------------- | ---------------------------------------------------|
+| app.py               | Main Streamlit chatbot app (Ollama connection)     |
+| chatbot_ollama.py    | Simple Ollama chatbot (initial version)            |
+| chatbot_ollama1.py   | Enhanced UI chatbot with multiple models           |
+| ocr1.py              | OCR-integrated chatbot with code detection         |
 
-code-genei-ai/
-├─ app.py
-├─ app1.py
-├─ ocr.py
-├─ README.md
-├─ screenshots/
-│   ├─ basic_chatbot.png
-│   ├─ enhanced_ui.gif
-│   └─ ocr_chatbot.png
+### 📸 UI Screenshots
+![Chatbot UI](./screenshots/UI_screenshot.png)
+![Chatbot Output](./screenshots/UI_screenshot-2.png)
+
+### 🎥 Demo Video
+[Watch Chatbot Demo](./demo/chatbot_output.mp4)
+
 
 
 
