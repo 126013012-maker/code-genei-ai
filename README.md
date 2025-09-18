@@ -113,13 +113,14 @@ streamlit run ocr.py
 | ocr1.py              | OCR-integrated chatbot with code detection         |
 
 ### 📸 UI Screenshots
-[View UI Layout](./screenshots/UI_screenshot.pdf)
-[View Chatbot Output](./screenshots/UI_screenshot-2.pdf)
 
-![Chatbot Output](./screenshots/UI_screenshot-2.png)
+### 📄 UI PDFs
+[View Chatbot UI](https://github.com/126013012-maker/code-genei-ai/blob/main/UI%20screenshot.pdf)  
+[View Chatbot Output](https://github.com/126013012-maker/code-genei-ai/blob/main/UI%20screenshot-2.pdf)  
 
 ### 🎥 Demo Video
-[Watch Chatbot Demo](./demo/chatbot_output.mp4)
+[Watch Chatbot Demo](https://github.com/126013012-maker/code-genei-ai/blob/main/chatbot%20output.mp4)
+
 
 
 
