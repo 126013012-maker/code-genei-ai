@@ -1,5 +1,3 @@
-Perfect! Here’s an **upgraded GitHub-ready version** of your README with **badges, GIF/screenshots placeholders, and polished formatting**:
-
 ---
 
 # 🗨️ code-genei-ai
