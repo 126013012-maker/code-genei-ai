@@ -113,7 +113,9 @@ streamlit run ocr.py
 | ocr1.py              | OCR-integrated chatbot with code detection         |
 
 ### 📸 UI Screenshots
-![Chatbot UI](./screenshots/UI_screenshot.png)
+[View UI Layout](./screenshots/UI_screenshot.pdf)
+[View Chatbot Output](./screenshots/UI_screenshot-2.pdf)
+
 ![Chatbot Output](./screenshots/UI_screenshot-2.png)
 
 ### 🎥 Demo Video
