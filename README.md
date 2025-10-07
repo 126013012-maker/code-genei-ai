@@ -61,9 +61,14 @@ source venv/bin/activate
 2. **Install required Python packages**
 
 ```bash
-pip install streamlit
-pip install pytesseract
-pip install opencv-python   # Optional
+import streamlit as st
+from PIL import Image
+import pytesseract
+from datetime import datetime
+import requests
+import fitz  # PyMuPDF for PDF extraction
+import io
+
 ```
 
 3. **Download and install Ollama 3.2.1b**
@@ -79,14 +84,20 @@ ollama serve
 4. **Run your Streamlit app**
 
 ```bash
-# Basic chatbot
+#Main Streamlit chatbot app
 streamlit run app.py
 
-# Enhanced UI
-streamlit run app1.py
+#Simple Ollama chatbot
+streamlit run  chatbot_ollama.py
+
+# Enhanced UI chatbot with multiple models
+chatbot_ollama1.py 
 
 # OCR-integrated chatbot
-streamlit run ocr.py
+streamlit run ocr1.py
+
+# OCR working with pdf
+streamlit run pdf.py
 ```
 
 5. **Open the chatbot in your browser**
@@ -110,7 +121,8 @@ streamlit run ocr.py
 | app.py               | Main Streamlit chatbot app (Ollama connection)     |
 | chatbot_ollama.py    | Simple Ollama chatbot (initial version)            |
 | chatbot_ollama1.py   | Enhanced UI chatbot with multiple models           |
-| ocr1.py              | OCR-integrated chatbot with code detection         |
+| ocr1.py              | OCR(img)-integrated chatbot with code detection    |
+| pdf.py               | OCR(pdf+img)-integrated chatbot with code detection|
 
 ### 📸 UI Screenshots
 
